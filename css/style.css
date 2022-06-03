@@ -375,7 +375,7 @@ header nav ul a{
 .owl-stage {
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 /*section_6*/
@@ -637,6 +637,6 @@ hr {
 
 .owl-dots {
     position: absolute;
-    right: 550px;
+    right: 535px;
     top: 140px;
 }
