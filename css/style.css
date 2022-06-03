@@ -368,6 +368,18 @@ header nav ul a{
     margin-bottom: 110px;
 }
 
+
+.container_logo{
+    max-width: 128px;
+}
+.container_logo img{
+    display: block;
+    width: 100%;
+}
+
+.container_logo a {
+    display: inline-block;
+}
 /*section_6*/
 
 .star_fall{
@@ -477,5 +489,137 @@ header nav ul a{
     background-color: #fff;
 }
 
+/* footer */
 
+.footer_container{
+    background-color: black;
+    padding-top: 104px;
+    padding-bottom: 100px;
+    color: #FFFFFF;
+}
+
+.footer_container .logo{
+    margin-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_text{
+    max-width: 458px;
+}
+
+.footer_container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.list_footer{
+    margin-bottom: 36px;
+}
+
+.areas{
+    margin-right: 55px;
+}
+
+.pages{
+    margin-right: 102px;
+}
+
+.list_footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+}
+
+.list_footer ul li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.list_footer ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.list_flex{
+    display: flex;
+    align-content: flex-end;
+}
+
+hr {
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+.footer_container .container h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer_container .container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 36px;
+}
+
+.text_search{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.text_search form{
+    width: 459px;
+    height: 53px;
+    box-sizing: border-box;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 7px 10px 7px 7px;
+}
+
+.search{
+    margin-right: 6px;
+}
+
+.search input{
+    width: 376px;
+    height: 35px;
+    border: none;
+    background: none;
+}
+
+
+.submit input{
+    background: #000000;
+    border-radius: 11px;
+    width: 63px;
+    height: 37px;
+    border: none;
+}
 
