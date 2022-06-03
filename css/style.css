@@ -368,18 +368,19 @@ header nav ul a{
     margin-bottom: 110px;
 }
 
-
-.container_logo{
-    max-width: 128px;
-}
-.container_logo img{
-    display: block;
-    width: 100%;
+.clients_container .d-flex{
+    padding-left: 25px;
 }
 
-.container_logo a {
+.d-flex a {
     display: inline-block;
 }
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
 /*section_6*/
 
 .star_fall{
@@ -623,3 +624,22 @@ hr {
     border: none;
 }
 
+.owl-dots .owl-dot span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.owl-dots .owl-dot.active span{
+    background-color: dimgray;
+    transform: scale(1.5);
+}
+
+.owl-dots {
+    position: absolute;
+    right: 550px;
+    top: 140px;
+}
