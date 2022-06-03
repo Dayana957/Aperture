@@ -368,17 +368,14 @@ header nav ul a{
     margin-bottom: 110px;
 }
 
-.clients_container .d-flex{
-    padding-left: 25px;
-}
-
-.d-flex a {
+.clients_container a {
     display: inline-block;
 }
 
 .owl-stage {
     display: flex;
     align-items: center;
+    padding-left: 30px;
 }
 
 /*section_6*/
