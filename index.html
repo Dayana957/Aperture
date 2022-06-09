@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -15,7 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
+<!--<header>
     <div class="container d-flex">
         <a href="#" class="logo">
             <img src="images/logo.svg" alt="logo">
@@ -40,7 +42,42 @@
             </ul>
         </nav>
     </div>
+</header>-->
+<header class="cd-header">
+    <div class="container d-flex">
+    <a href="#" class="logo">
+        <img src="images/logo.svg" alt="logo">
+    </a>
+    <a href="#0" class="cd-3d-nav-trigger">
+        Menu
+        <span></span>
+    </a>
+    </div>
 </header>
+<nav class="cd-3d-nav-container">
+    <ul class="cd-3d-nav">
+        <li class="cd-selected">
+            <a href="#">Business areas</a>
+        </li>
+
+        <li>
+            <a href="#0">Featured images</a>
+        </li>
+
+        <li>
+            <a href="#0">Gear cage</a>
+        </li>
+
+        <li>
+            <a href="#">Contact</a>
+        </li>
+
+        <li>
+            <a href="#">Get template</a>
+        </li>
+    </ul>
+    <span class="cd-marker color-1"></span>
+</nav>
 <section class="main_banner">
     <div class="container">
         <h3>Photographer & Filmmaker</h3>
@@ -60,48 +97,54 @@
     <div class="container">
         <h2 class="text_center">What we do.</h2>
         <p class="text_center">The areas that we're specialized in.</p>
-        <div class="d-flex wrap">
-            <div class="item">
-                <div class="description">
-                    <h4>Product Photography</h4>
-                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-                        Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a href="#">Read more</a>
+            <div id="accordion">
+                <h3>More</h3>
+                <div class="d-flex wrap">
+                    <div class="item">
+                        <div class="description">
+                            <h4>Drone Photography</h4>
+                            <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a
+                                vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor
+                                hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/IMAGE3.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <div class="description">
+                            <h4>Wildlife Photographyy</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
+                                faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus
+                                congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/IMAGE4.jpg" alt="img">
+                    </div>
                 </div>
-                <img src="images/IMAGE1.jpg" alt="img">
-            </div>
-            <div class="item">
-                <div class="description">
-                    <h4>Architecture Photography</h4>
-                    <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra,
-                        ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit
-                        amet rhoncus leo imperdiet nec.</p>
-                    <a href="#">Read more</a>
+                <h3>More</h3>
+                <div class="d-flex wrap">
+                    <div class="item">
+                        <div class="description">
+                            <h4>Product Photography</h4>
+                            <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
+                                Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/IMAGE1.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <div class="description">
+                            <h4>Architecture Photography</h4>
+                            <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra,
+                                ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit
+                                amet rhoncus leo imperdiet nec.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/IMAGE2.jpg" alt="img">
+                    </div>
                 </div>
-                <img src="images/IMAGE2.jpg" alt="img">
-            </div>
-            <div class="item">
-                <div class="description">
-                    <h4>Drone Photography</h4>
-                    <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a
-                        vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor
-                        hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a href="#">Read more</a>
-                </div>
-                <img src="images/IMAGE3.jpg" alt="img">
-            </div>
-            <div class="item">
-                <div class="description">
-                    <h4>Wildlife Photographyy</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
-                        faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus
-                        congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
-                    <a href="#">Read more</a>
-                </div>
-                <img src="images/IMAGE4.jpg" alt="img">
             </div>
         </div>
-    </div>
 </section>
 <section class="fuji">
     <div class="container">
@@ -275,6 +318,12 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script>
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
+</script>
 <script src="js/scripts.js"></script>
 
 </body>
