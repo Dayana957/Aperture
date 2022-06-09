@@ -61,7 +61,7 @@ header nav ul a{
 .main_banner{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
-    height: 87vh;
+    height: 95vh;
     display: flex;
     align-items: end;
     justify-content: center;
@@ -151,6 +151,7 @@ header nav ul a{
 
 .what_we_do{
     background-color: black;
+    padding-top: 112px;
 }
 
 .what_we_do .container{
